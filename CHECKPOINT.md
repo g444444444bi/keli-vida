@@ -22,3 +22,8 @@
 
 ## Pendências
 - Primeiro login real e teste de sincronização feitos pela própria usuária.
+
+## Limpeza do histórico (2026-11-25)
+- Um commit anterior continha dados pessoais embutidos em um array de código. Histórico reescrito com force push (somente neste repositório); `main` = `129be53` (+ commits posteriores de checkpoint). Auditoria do código atual: sem seeds, contratos, parcelas, valores, saúde, treinos, documentos, endereços, e-mails, senhas, tokens ou identificadores do Firebase original.
+- **Referência residual:** o commit antigo ainda é acessível por SHA direto (página de commit, raw e API do GitHub), embora não esteja em branch, tag ou PR. Remoção depende do GitHub Support (texto do pedido preparado localmente em `GITHUB-SUPPORT-REQUEST.md`, não versionado). Não considerar eliminado até o Support confirmar.
+- O "modo demonstração" do app usa dados fictícios gerados em memória (rotulados como exemplo); não são dados da titular.
